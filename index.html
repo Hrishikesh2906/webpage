@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Blog</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url("pic.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.header {
+  background-color:white;
+  scroll-behavior: smooth;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  font-size: xx-large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black !important ;
+  transition: 0.2ms;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.image{
+  text-align: center;
+}
+
+.column.side {
+  width: 25%;
+  scroll-behavior: fixed;
+  position: -webkit-sticky;
+  position : sticky;
+}
+
+.column.middle {
+  width: 50%;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+  .image{
+  width: 100%;
+  }
+}
+
+.footer {
+  background-color: black;
+  padding: 10px;
+  text-align: left;
+  color: gray;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>The Downtown Comic Center</h1>
+</div>
+
+<div class="topnav">
+  <a href="home.html">Home</a>
+  <a href="info.html">Info</a>
+  <a href="next.html">Next</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <div class="card">
+    <h2>Contents</h2>
+    <h2><a href="#intro">Top</a></h2>
+    <h2><a href="#10">All-Star Superman</a></h2>
+    <h2><a href="#9">Akira</a></h2>
+    <h2><a href="#8">X-Men</a></h2>
+    <h2><a href="#7">DMZ</a></h2>
+    <h2><a href="#6">Dark Knight Returns</a></h2>
+    <h2><a href="#5">Preacher</a></h2>
+    <h2><a href="#4">The Killing Joke</a></h2>
+    <h2><a href="#3">100 Bullets</a></h2>
+    <h2><a href="#2">Scalped</a></h2>
+    <h2><a href="#1">Watchmen</a></h2>
+    </div>
+  </div>
+
+  <div class="column middle">
+    <div class="card">
+    <h1 id="intro">The Top 10 Comic Books of All Times</h1>
+    <p>The comics you see are either entire runs, or a specific issue. These are the stories that have made the most impact on me, and hopefully can on you too. If you've never read any of these series, I urge you to track them down and give them a read. You won't regret it, I promise you that. So without further ado, I present to you my top 10…</p>
+    <h2 id="10">10. All-Star Superman</h2>
+    <div class="image">
+    <img src="no_10.jpeg" width="400px" height="600px">
+    </div>
+    <p>All-Star Superman is a twelve-issue maxi-series written by Grant Morrison and drawn by Frank Quitely. The series was the second to be launched in 2005 under DC’s All-Star imprint, the first being All Star Batman &amp; Robin, the Boy Wonder. The series was developed to allow major comics creators a chance to tell stories showcasing characters without being restricted by DC Universe continuity. All-Star Superman is widely regarded as being one of the best Superman stories every told, and for good reason.</p>
+    <h2 id="9">9. Akira</h2>
+    <div class="image">
+    <img src="no_9.jpeg" width="400px" height="600px">
+    </div>
+    <p>Akira is a Japanese manga series, written and illustrated by Katsuhiro Otomo. Set in a post-apocalyptic Neo-Tokyo, the work uses conventions of the cyberpunk genre to detail a saga of turmoil. Initially serialized in the pages of Young Magazine from 1982 until 1990, the work was collected into six volumes by its publisher Kodansha. The work was first published in an English-language version by the Marvel Comics imprint Epic Comics, one of the first manga works to be translated in its entirety. Otomo’s art on the series is considered outstanding, and a breakthrough for both Otomo and the manga form. Through the breadth of the work, Otomo explicates themes of social isolation, corruption and power.</p>
+    <h2 id="8">8. X-Men : Days of Future Past</h2>
+    <div class="image">
+    <img src="no_8.jpeg" width="400px" height="600px">
+    </div>
+    <p>Perhaps one of the most influential, and beloved, story lines of  all-time. “Days of Future Past” takes place in Marvel Comics’ series The Uncanny X-Men, during  issues #141-142, published in 1981. It deals with a dystopian future in which mutants are incarcerated in internment camps. An adult Kate Pryde transfers her mind into her younger self who brings the X-Men to prevent a fatal moment in history that triggers anti-mutant hysteria. The story line was produced during the franchise’s rise to popularity under the writer/artist team of Chris Claremont, John Byrne and Terry Austin.</p>
+    <h2 id="7">7. DMZ</h2>
+    <div class="image">
+    <img src="no_7.jpeg" width="400px" height="600px">
+    </div>
+    <p>DMZ is the story of an America caught in the midst of so many overseas military operations that the nation itself crumbles and is gripped in a civil war between the federal government of the United States and the “Free States” armies, who are more of an idea than an actual geographical entity. Set in New York City, sometime in the near future and five years after the outbreak of the civil war, the island of Manhattan has been turned into a demilitarized zone. Young, bright eyed and bushy tailed Matty Roth, the story’s protagonist, is a helper with a news crew for Liberty News, the hyper-patriotic, semi-state-owned propaganda news service. As he arrives in New York, his helicopter is shot down, and he finds himself catapulted into a new role as a boy reporter. From those beginnings, the story unrolls, as Roth discovers the truth of war, becomes the story he is reporting on, and finally falls too deep.</p>
+    <h2 id="6">6. The Dark Knight Returns</h2>
+    <div class="image">
+    <img src="no_6.jpeg" width="400px" height="600px">
+    </div>
+    <p>The book that gave “Batman his balls back,” as writer/artist Frank Miller so eloquently put it. The Dark Knight Returns, released in 1986 is widely considered to be one of the best Batman stories ever told. Despite the fact that the comic previously returned to its darker roots in the early ‘70s, The Dark Knight Returns took it to another level.Bruce Wayne, now in his 50’s, retired from being the Batman years prior after superheroes were outlawed. After witnessing his city being torn apart by a new gang known as The Mutants, he dons the cape and cowl for one last crusade. He’s less of a noble hero and more of a jaded old man with a death wish and a hard-on for crime. Miller’s hard-boiled script and noir art highlights the darkness and disparity in Batman’s world. Even the fights against foes like The Joker and an out-of-control, jingoistic version of Superman have a brutal finality about them.</p>
+    <h2 id="5">5. Preacher</h2>
+    <div class="image">
+    <img src="no_5.jpeg" width="400px" height="600px">
+    </div>
+    <p>Vertigo titles occupy half of my top ten list, and for good reason. They put out some amazing series over the years. They’re not afraid of taking risks on projects that most others would pass on. They allow creators to get creative, and in turn they create some of the most daring comics to ever hit the market. None of them, however, come close to being as blasphemous and controversial as Garth Ennis’ Preacher.Ennis’ landmark title focused on a small-town preacher, named Jesse Custer, from the Texas town of Annville. In the opening story, Custer is possessed by a creature known as Genesis, the offspring of a demon and an angel, who in the process kills everyone in his congregation and bestows unnatural powers upon him. Custer sets off in search of the absentee Almighty to take issue with His management of the world. </p>
+    <h2 id="4">4. The Killing Joke</h2>
+    <div class="image">
+    <img src="no_4.jpeg" width="400px" height="600px">
+    </div>
+    <p>Back in the 1980s Alan Moore was making a name for himself on original work like V for Vendetta, Marvelman and Watchmen, he also did  work for DC’s established superheroes, like Superman, the Green Arrow, and Batman. It was his work on The Killing Joke that really took it to the next level. In the 64 page one shot, Moore explores the relationship between Batman and his most famous foe, The Joker, in a way that has influenced nearly every interpretation of the two since then. The plot itself is fairly straightforward: The Joker has escaped from Arkham Asylum and kidnapped Commissioner Gordon in order to lead Batman into a trap at an abandoned amusement park. In the process, the Joker commits perhaps the most senseless act of violence we’ve ever seen in a comic at that point: He shoots Barbara Gordon, a.k.a. Batgirl, in the stomach, paralyzing her from the waist down. The repercussions are still felt to this day, even in the events of the New 52 Batgirl.</p>
+    <h2 id="3">3. 100 Bullets</h2>
+    <div class="image">
+    <img src="no_3.jpeg" width="400px" height="600px">
+    </div>
+    <p>m sure that you’ve noticed a pattern by now, a lot of noir and pulp genres populate this list. 100 Bullets is no different, and I could argue is the ultimate noir and pulp story in this list. From writer Brian Azzarello and artist Eduardo Risso, 100 Bullets is consistent with noir convention,where most of the characters are deeply flawed and as is also common in pulp and noir genres, 100 Bullets frequently portrays stylized and graphic violence.</p>
+    <h2 id="2">2. Scalped</h2>
+    <div class="image">
+    <img src="no_2.jpeg" width="400px" height="600px">
+    </div>
+    <p>There’s been a common theme to a lot of the series that have made my top 10 list here and it’s that they take place in a dark and dirty corner of the world that a lot of people don’t want to look at, but just can’t help themselves once they get a smattering of. Scalped is no different, this noir-ish detective story is set on a Native American reservation, one of the most depressing places to be in America. It’s the desperation and despair that is portrayed throughout the series that makes you feel bad for the characters, whether they’re good or not. It’s the grim reality that’s portrayed that gives Scalped an emotional impact.</p>
+    <h2 id="1">1. Watchmen</h2>
+    <div class="image">
+    <img src="no_1.jpeg" width="400px" height="600px">
+    </div>
+    <p>At this point, who doesn’t? It’s sold over a million copies and is the first thing people mention when talking comics–for-adults. It’s the only graphic novel to make Time’s 100 Best Novels list, one of Entertainment Weekly’s Top 50 novels of the past 25 years, and has made fans of everyone from film directors Zack Snyder and Darren Aronofsky to the writers on Lost. Watchmen takes place in an alternate world where the mere presence of American superheroes changed history: The US won the Vietnam War, Nixon is still president, and the cold war is in full effect.  It begins with a murder-mystery before unfolding into a planet-altering conspiracy: When a retired hero is killed, his former teammates must investigate. The conspiracy they uncover will entwine their secret traumas and twisted psychologies, ultimately asking where the fine line is drawn between heroes and villains?</p>
+  </div>
+  </div>
+
+  <div class="column side">
+    <div class="card">
+    <h2>Info</h2>
+    <p>If you are intersted in know whats hapenning in the field of comics, do consider to follow us on Instagram or like our Facebook page. If you want to contribute information to our blog, e-mail us !!</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h3>Done by-</h3>
+  <p>M Hrishikesh<br>S2 CSE - C<br>AM.EN.U4CSE19231</p>
+  <p style="text-align: end;">Thank you</p>
+</div>
+
+</body></html>
